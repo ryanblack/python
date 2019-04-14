@@ -10,6 +10,7 @@ j = l                      #increment for inner while loop
 
 #First we sort the array with badnumbers
 bad_array.sort()
+
 #1. Checking each segment, except the one in the end.
 while i < r and i < len(bad_array):                
   while j < bad_array[i]:                          #checking each segment
